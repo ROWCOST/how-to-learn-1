@@ -71,6 +71,13 @@
   left: 64px;
   z-index: 3;
 }
+.header__link {
+  color: #2f80ed;
+  
+}
+.link_underline_none {
+  text-decoration: none;
+}
 
 .main-illustration {
 
@@ -85,11 +92,57 @@
 }
 
 .content {
-
+  display: flex;
+  flex-direction: column;
 }
 
 
 .description {
+display: flex;
+justify-content: center;
+
+}
+.brief {
+  width: 175px;
+  display: flex;
+}
+.brief__text {
+  font-size: 18px; 
+  font-weight: normal; 
+  line-height: 1.2; 
+  margin: 0;
+
+}
+.brief__text_color {
+  color:#2f80ed
+}
+.two-columns {
+  width: 80%; 
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.paragraph {
+  font-size: 24px; 
+  font-weight: normal;  
+  line-height: 34px;
+  margin: 0;
+}
+.two-columns__paragraph_margin {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.two-columns__main-text {
+  width: 80%; 
+  min-width: 784px;
+  flex-direction: column;
+
+}
+.span-accent {
+  font-size: 24px; 
+  font-weight: 600;  
+  line-height: 34px;
 
 }
 .digits {
