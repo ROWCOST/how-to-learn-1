@@ -18,7 +18,7 @@
   position: relative;
   object-fit: cover;
   margin: 0;
-  /* выше установили ограничения для секции */
+  
 }
 .logo {
   width: 228px;
@@ -29,7 +29,7 @@
   top: 30px;
   left: 60px;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -41,7 +41,6 @@
   z-index: 1;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -49,31 +48,30 @@
   margin-top: 80px;
 }
 .title {
-  width: 730px;
   font-size: 102px;
-  line-height: 96px;
   font-weight: 600;
-  position: absolute;
+  line-height: 96px;
 }
 .header__title {
+  width: 730px;
   margin: auto 64px;
   flex-direction: column;
   z-index: 3;
   
 }
 .subtitle {
+  font-size: 18px; 
+  font-weight: normal;  
+  line-height: 25px;
+}
+.header__subtitle {
   position: absolute;
-
-}
-.heeader__subtitle {
   width: 388px;
-  margin-bottom: 30px;
-  margin-right: 64px;
-  
+  bottom: 30px;
+  left: 64px;
+  z-index: 3;
 }
-.header__column {
-  flex-direction: column;
-}
+
 .main-illustration {
 
 }
