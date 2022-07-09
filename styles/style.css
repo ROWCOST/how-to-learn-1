@@ -13,7 +13,7 @@
   display: flex;
   position: relative;
   object-fit: cover;
-  margin: 0; 
+  margin: 0;
 }
 .logo {
   width: 228px;
@@ -55,8 +55,8 @@
 }
 .subtitle {}
 .header__subtitle {
-  font-size: 18px; 
-  font-weight: normal;  
+  font-size: 18px;
+  font-weight: normal;
   line-height: 25px;
   position: absolute;
   width: 388px;
@@ -66,7 +66,7 @@
 }
 .header__link {
   color: #2f80ed;
-  z-index: 3
+  z-index: 3;
 }
 .link {
   text-decoration: none;
@@ -81,7 +81,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 2
+  z-index: 2;
 }
 .content {
   display: flex;
@@ -96,24 +96,24 @@ justify-content: center;
   display: flex;
 }
 .brief__text {
-  font-size: 18px; 
-  font-weight: normal; 
-  line-height: 1.2; 
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
   margin: 0;
 }
 .brief__text_color {
   color:#2f80ed
 }
 .two-columns {
-  width: 80%; 
+  width: 80%;
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
 }
 .two-columns__paragraph {
-  font-size: 24px; 
-  font-weight: normal;  
+  font-size: 24px;
+  font-weight: normal;
   line-height: 34px;
   margin: 0;
 }
@@ -122,13 +122,13 @@ justify-content: center;
   margin-bottom: 30px;
 }
 .two-columns__main-text {
-  width: 80%; 
+  width: 80%;
   min-width: 784px;
   flex-direction: column;
 }
 .span-accent {
-  font-size: 24px; 
-  font-weight: 600;  
+  font-size: 24px;
+  font-weight: 600;
   line-height: 34px;
 }
 .digits {
