@@ -102,7 +102,7 @@ justify-content: center;
   margin: 0;
 }
 .brief__text_color {
-  color:#2f80ed
+  color:#2f80ed;
 }
 .two-columns {
   width: 80%;
@@ -232,7 +232,7 @@ justify-content: center;
 }
 .feynman__link {
   font-size: 36px;
-  font-weight: normal; 
+  font-weight: normal;
   line-height: 51px;
   position: absolute;
   top: 50%;
@@ -346,7 +346,7 @@ justify-content: center;
 }
 .footer__column-heading {
   font-size: 18px;
-  font-weight: 600; 
+  font-weight: 600;
   line-height: 30px;
   margin: 0;
 }
@@ -367,5 +367,5 @@ justify-content: center;
   text-decoration: none;
   background-image: url();
   align-items: baseline;
-  color:#fff
+  color:#fff;
 }
