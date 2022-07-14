@@ -19,7 +19,7 @@
   width: 228px;
   height: 32px;
 }
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 60px;
@@ -89,8 +89,6 @@ justify-content: center;
   font-weight: normal;
   line-height: 1.2;
   margin: 0;
-}
-.two-columns__brief_text_color{
   color:#2f80ed;
 }
 .two-columns {
@@ -292,7 +290,7 @@ justify-content: center;
   justify-content: space-between;
   flex-basis: 711px;
 }
-.logo__place_footer {
+.logo_place_footer {
   align-content:flex-start;
 }
 .footer__author {
