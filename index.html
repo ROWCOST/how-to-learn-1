@@ -2,24 +2,23 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Первый спринт">
+  <meta name="description" content="Второй спринт">
   <meta name="author" content="Илья Варганов">
 </head>
 <body class="page">
   <header class="header">
-    <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Яндекс Практикум"/>
+    <img class="logo logo_place_header" src="./images/logo/logo_place_header.svg" alt="Яндекс Практикум"/>
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? 
       <a href="#1" class="link header__link">Узнать &#10230;</a> 
     </p>
     <img class="header__main-illustration" src="./images/header-image.png" alt="Мальчика после школы встечает собачка"/>
-    <div class="header__square-pic"></div>
+    <div class="header__square-pic rotation"></div>
   </header>
-<main class="content" id="1">
+<main class="content">
   <section class="description">
     <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -31,32 +30,32 @@
       </div>
     </article>
   </section>
-  <section class="techniques">
+  <section class="techniques" id="1">
     <h2 class="section-title">Техники обучения</h2>
     <p class="section-subtitle">Пять практик от Барбары Оакли</p>
     <ul class="cards">
       <li class="cards__item">
-        <img class="cards__image" src="/images/cards/cards-attention.png" alt="">
+        <img class="cards__image" src="./images/cards/cards-attention.png" alt="">
         <h3 class="cards__title">Два вида внимания</h3>
         <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
       </li>
       <li class="cards__item">
-        <img class="cards__image" src="/images/cards/cards-recall.png" alt="">
+        <img class="cards__image" src="./images/cards/cards-recall.png" alt="">
         <h3 class="cards__title">Recall</h3>
         <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
       </li>
       <li class="cards__item">
-        <img class="cards__image" src="/images/cards/cards-interliving.png" alt="">
+        <img class="cards__image" src="./images/cards/cards-interliving.png" alt="">
         <h3 class="cards__title">Интерливинг</h3>
         <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
       </li>
       <li class="cards__item">
-        <img class="cards__image" src="/images/cards/cards-question.png" alt="">
+        <img class="cards__image" src="./images/cards/cards-question.png" alt="">
         <h3 class="cards__title">Вопросы</h3>
         <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
       </li>
       <li class="cards__item">
-        <img class="cards__image" src="/images/cards/cards-competence.png" alt="">
+        <img class="cards__image" src="./images/cards/cards-competence.png" alt="">
         <h3 class="cards__title">Иллюзия компетентности</h3>
         <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
       </li>
@@ -66,8 +65,8 @@
     <h2 class="section-title">Видео нa TED</h2>
     <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
     <div class="video__iframes">
-      <iframe class="video__iframe"  src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube TED"></iframe>
-      <iframe class="video__iframe"  src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube TED"></iframe>
+      <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video TED" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video TED" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </section>
   <section class="oakley">
@@ -125,6 +124,19 @@
       </li>
     </ul>
   </section>
+  <section class="khan">
+    <div class="khan__container">
+    <p class="khan__author">Салман Хан</p>
+    <h2 class="khan__title">Весь мир — школа</h2>
+    <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+    <p class="khan__quote-author">Джордж Лукас</p>
+    <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+    <div class="khan__book-container">
+      <img class="khan__book-pic" src="./images/khan/khan-book.jpg" alt="Обложка книги - Салман Хан: Весь мир — школа">
+      <a class="link khan__buy-link" href="#">Купить книгу &#10230;</a>
+    </div>
+    </div>
+  </section>
   <section class="kaufman">
     <h2 class="kaufman__title section-title section-title_theme_dark">Принципы обучения</h2>
     <p class="kaufman__subtitle section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
@@ -170,13 +182,31 @@
         <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
       </li>
     </ul>
-    <div class="kaufman__triangle"></div>
+    <div class="kaufman__triangle rotation"></div>
+  </section>
+  <section class="resources">
+    <h2 class="section-title">Полезные ресурсы</h2>
+    <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+    <div class="resources__logo-zone">
+      <a class="link resources__link" href="#">
+        <img class="resources__logo" src="./images/logo/resources-arzamas.svg">
+      </a>
+      <a class="link resources__link" href="#">
+        <img class="resources__logo" src="./images/logo/resources-n1.svg">
+      </a>
+      <a class="link resources__link" href="#">
+        <img class="resources__logo" src="./images/logo/resources-strelka.svg">
+      </a>
+      <a class="link resources__link" href="#">
+        <img class="resources__logo" src="./images/logo/resources-polka.svg">
+      </a>
+    </div>
   </section>
 </main>
 <footer class="footer">
   <div class="footer__columns">
     <div class="footer__column footer__column_content_copyright">
-      <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Яндекс Практикум">
+      <img class="logo logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="Яндекс Практикум">
       <p class="footer__author">&copy; Варганов Илья</p>
     </div>
     <nav class="footer__column footer__column_content_info">

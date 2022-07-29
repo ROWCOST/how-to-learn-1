@@ -7,4 +7,5 @@
     position: relative;
     object-fit: cover;
     margin: 0;
+    overflow: hidden;
   }
