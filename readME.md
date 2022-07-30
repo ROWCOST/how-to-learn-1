@@ -4,8 +4,9 @@
   
 Проектная работа второго спринта Яндекс.Практикума на основе [брифа](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf)  
   
+------  
 ### Используемые технологии:  
------- 
+
 1. HTML  
 2. CSS:  
 * flexbox;
